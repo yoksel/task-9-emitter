@@ -16,7 +16,7 @@ class Emitter {
         let events = this.events[eventName];
 
         if (events) {
-            this.events[eventName].delete(handler)
+            this.events[eventName].delete(handler);
         }
     }
 
